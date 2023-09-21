@@ -3,20 +3,17 @@
 
 .holder{
 
-	justify-content:center;
-	align-items:center;
+	height:100vh;
+	width:100vw;
 }
 
-.item{
-	
-	width:100px;
-	height:100px;
-	background-color:red;
-}
-.item,.item-1{
+.item-1{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	width:100px;
+	height:100px;
+	background-color:red;
 }
 
  
