@@ -3,18 +3,20 @@
 
 .holder{
 
-	width:100vw;
-	height:100vh;
-	display:flex;
 	justify-content:center;
 	align-items:center;
 }
 
-.item-1{
+.item{
 	
 	width:100px;
 	height:100px;
 	background-color:red;
+}
+.item,.item-1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 
  
